@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QaPro" parallel="tests"> 
+  <test thread-count="5" name="facebook sign in using firefox">
+  
+ <parameter name="url"  value="https://www.facebook.com/"> </parameter> 
+ <parameter name="browser"  value="firefox"> </parameter> 
+  <classes>
+  <class name="testCase.TestCase1"/>
+</classes>
+
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
